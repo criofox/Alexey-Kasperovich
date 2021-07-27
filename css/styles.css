@@ -1,0 +1,208 @@
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.tab {
+  display: none;
+  background-color: #fffafa;
+  margin-top: 30px;
+}
+
+.tab.visible {
+  display: block;
+}
+
+.open-button {
+  background-color: #2196F3;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 3px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 280px;
+  display: block;
+  margin: auto;
+}
+
+.form-popup {
+  display: none;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 5px;
+  background-color: white;
+  margin: auto;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 4px;
+  margin: 5px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #1976D2;
+  color: white;
+  padding: 3px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-container .cancel-btn {
+  background-color: #448AFF;
+  margin-top: 2px;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3px auto 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: start;
+  font-size: 16px;
+}
+
+.execute {
+  display: block;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  background-color: #a1c2fc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.execute:hover {
+  background-color: #669eff;
+}
+
+.delete {
+  display: block;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  background-color: #a1c2fc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: #669eff;
+}
+
+.restore {
+  display: block;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  background-color: #a1c2fc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.restore:hover {
+  background-color: #669eff;
+}
+
+.hidden {
+  display: none;
+  font-size: 14px;
+}
+
+.ok {
+  display: none;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  background-color: #a1c2fc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ok:hover {
+  background-color: #669eff;
+}
+
+.cancel {
+  display: none;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  background-color: #a1c2fc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cancel:hover {
+  background-color: #669eff;
+}
+
+.edit {
+  margin-left: 10px;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+  background-color: #a1c2fc;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.edit:hover {
+  background-color: #669eff;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+}
+
+.buttonSwitch.focus {
+  background-color: #dddddd;
+}
